@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.audero.free.utility.eventlocator"
+        version   = "1.0.0">
+
+   <name>Event locator</name>
+
+   <description>"Event Locator" is an application for mobile devices that lets you locate where an event is happening, 
+   and then find a route to return to it. 
+   This application is useful because it allows event organizer to notify their clients where they are situated.
+   In addition, "Event Locator" will also save a log of your saved positions (up to 50), so that you can retrieve a location
+   for future use. The list allows you to see the position on a map, and you can also delete one or more old locations.
+   </description>
+
+   <author href="davis.html" email="peter.davis873@gmail.com">Davis Peter</author>
+
+   <icon src="images/event-locator-logo.png" gap:role="default" />
+
+   <feature name="http://api.phonegap.com/1.0/network"/>
+   <feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+   <preference name="phonegap-version" value="2.0.0" />
+   <preference name="target-device" value="universal" />
+
+   <!-- Splash Screens -->
+   <gap:splash src="splash.png" />
+   <gap:splash src="images/splash-160x220.png" gap:platform="android" gap:density="ldpi" />
+   <gap:splash src="images/splash-220x330.png" gap:platform="android" gap:density="mdpi" />
+   <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
+</widget>
