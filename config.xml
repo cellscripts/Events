@@ -19,6 +19,7 @@
 
    <feature name="http://api.phonegap.com/1.0/network"/>
    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+   <feature secret="b03f5f7f11d50a3a"/>
 
    <preference name="phonegap-version" value="2.0.0" />
    <preference name="target-device" value="universal" />
